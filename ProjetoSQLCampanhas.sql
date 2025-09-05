@@ -7,7 +7,6 @@ SELECT * FROM campaigns
 SELECT COUNT(campaign_id) FROM campaigns
 
 -- 2 - Qual é o orçamento total investido, somando todas as campanhas? (2.535.923,78)
-
 SELECT SUM(total_budget) FROM campaigns
 
 -- 3 - Quantos anúncios foram criados para cada plataforma (ex: Facebook, Instagram)?
